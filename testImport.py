@@ -20,12 +20,3 @@ print("Training Accuracy: ", np.sum(Y*c.Predict(X) >= 0)/len(X))
 print("Test Accuracy: ", np.sum(Y_test*c.Predict(X_test) >= 0)/len(X_test))
 c.Show()
 c.Fit()
-
-#d = rf.hClf(X,Y,lbda = 1)
-
-#rf.changeOfVariables(X,X)
-
-#e = rf.HKGaussian(torch.tensor(X, dtype = torch.float), d.theta, d.omega)
-
-#print(e)
-#print(e.size())
